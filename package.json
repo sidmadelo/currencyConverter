@@ -1,0 +1,29 @@
+{
+  "name": "currencyconverter",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "cd client && npm install",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "concurrently": "^4.0.1",
+    "express": "^4.16.3",
+    "json2csv": "^4.2.1",
+    "nodemon": "^1.18.4",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0",
+    "require": "^2.4.20"
+  },
+  "devDependencies": {
+    "redux-devtools": "^3.4.1"
+  },
+  "description": ""
+}

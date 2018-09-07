@@ -1,0 +1,33 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 5%;
+}
+.paperContainer {
+	padding: 5%;
+	margin-bottom: 5%;
+}
+.row {
+	display: flex;
+	flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+
+.conversionTextInput {
+    max-width: 240px;
+    display: flex;
+    justify-content: flex-end;
+}
+.conversionContainer {	
+    display: flex;
+    flex-direction: column;
+}
+.currenciesContainer {
+	display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
