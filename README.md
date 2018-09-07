@@ -5,7 +5,7 @@ steps:
 
 1. clone the app.
 
-2. go in the folder 'currencyConverter/'.
+2. go in to the folder 'currencyConverter/'.
 
 3. npm install.
 
