@@ -45,7 +45,7 @@ const ConverterComponent = ({
 		onFetchingConversion
 	}) => (
 	<Paper className="paperContainer">
-	<div class="conversionContainer">
+	<div className="conversionContainer">
 		<div className="row">
 			<FormControl style={{minWidth: 60}}>
 			<InputLabel>From</InputLabel>
@@ -314,7 +314,7 @@ class Converter extends Component {
 		return (
 			<div className="container">
 				{this.props.isFetchingCurrencyList ? <CircularProgress /> :
-					<div>
+					<div className="wrapper">
 						<ConverterComponent {...this.props}/>
 				    	<DownloadCurrency {...this.props}/>
 			    	</div>
